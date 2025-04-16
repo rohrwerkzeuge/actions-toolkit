@@ -1,0 +1,33 @@
+{
+  "name": "@rohrwerkzeuge/toolkit",
+  "version": "0.1.0",
+  "description": "Github Actions Toolkit",
+  "homepage": "https://github.com/rohrwerkzeuge/actions-toolkit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohrwerkzeuge/actions-toolkit.git",
+    "directory": "toolkit"
+  },
+  "bugs": {
+    "url": "https://github.com/rohrwerkzeuge/actions-toolkit/issues"
+  },
+  "license": "GPL-3.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "!.DS_Store"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@1password/sdk": "0.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.1"
+  }
+}

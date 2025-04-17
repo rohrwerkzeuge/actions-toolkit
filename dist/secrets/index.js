@@ -10,7 +10,7 @@ class CloudSecret {
     async getField(name, field) {
         const client = await (0, sdk_1.createClient)({
             auth: this.token,
-            integrationName: "Update Upstream Integration",
+            integrationName: "Rohrwerkzeuge GitHub Action Toolkit",
             integrationVersion: "0.1.0",
         });
         return client.secrets.resolve(`op://cloud/${name}/${field}`);
@@ -20,4 +20,3 @@ class CloudSecret {
     }
 }
 exports.CloudSecret = CloudSecret;
-//# sourceMappingURL=index.js.map

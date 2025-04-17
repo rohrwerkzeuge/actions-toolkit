@@ -22,16 +22,12 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "package": "npx rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript"
+    "build": "tsc -p tsconfig.json"
   },
   "dependencies": {
-    "@1password/sdk": "^0.1.5"
+    "@1password/sdk": "^0.2.1"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^28.0.1",
-    "@rollup/plugin-node-resolve": "^16.0.1",
-    "@rollup/plugin-typescript": "^12.1.1",
     "@types/node": "22.10.1",
     "rollup": "^4.40.0",
     "tslib": "^2.8.1"

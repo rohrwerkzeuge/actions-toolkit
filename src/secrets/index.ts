@@ -10,7 +10,7 @@ export class CloudSecret {
     async getField(name: string, field: string): Promise<string> {
         const client = await createClient({
             auth: this.token,
-            integrationName: "Update Upstream Integration",
+            integrationName: "Rohrwerkzeuge GitHub Action Toolkit",
             integrationVersion: "0.1.0",
         });
 

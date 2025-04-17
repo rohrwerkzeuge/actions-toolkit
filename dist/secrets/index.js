@@ -1,14 +1,11 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.CloudSecret = void 0;
-const sdk_1 = require("@1password/sdk");
-class CloudSecret {
+import { createClient } from "@1password/sdk";
+export class CloudSecret {
     token;
     constructor(token) {
         this.token = token;
     }
     async getField(name, field) {
-        const client = await (0, sdk_1.createClient)({
+        const client = await createClient({
             auth: this.token,
             integrationName: "Rohrwerkzeuge GitHub Action Toolkit",
             integrationVersion: "0.1.0",
@@ -19,4 +16,3 @@ class CloudSecret {
         return this.getField(name, "credential");
     }
 }
-exports.CloudSecret = CloudSecret;

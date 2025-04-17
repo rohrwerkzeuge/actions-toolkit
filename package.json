@@ -2,6 +2,7 @@
   "name": "@rohrwerkzeuge/actions-toolkit",
   "version": "0.1.0",
   "description": "Github Actions Toolkit",
+  "type": "module",
   "homepage": "https://github.com/rohrwerkzeuge/actions-toolkit",
   "repository": {
     "type": "git",

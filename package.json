@@ -19,6 +19,9 @@
     "dist",
     "!.DS_Store"
   ],
+  "engines": {
+    "node": ">=24"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -30,6 +33,7 @@
   },
   "devDependencies": {
     "@types/node": "24.9.2",
+    "typescript": "^5.9.2",
     "tslib": "^2.8.1"
   }
 }

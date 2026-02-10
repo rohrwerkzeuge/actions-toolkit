@@ -29,7 +29,7 @@
     "build": "tsc -p tsconfig.json"
   },
   "dependencies": {
-    "@1password/sdk": "0.3.1"
+    "@1password/sdk": "0.4.0"
   },
   "devDependencies": {
     "@types/node": "24.10.0",

@@ -32,7 +32,7 @@
     "@1password/sdk": "0.3.1"
   },
   "devDependencies": {
-    "@types/node": "24.10.0",
+    "@types/node": "24.13.3",
     "typescript": "^5.9.2",
     "tslib": "^2.8.1"
   }
